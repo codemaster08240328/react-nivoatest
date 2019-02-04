@@ -1,0 +1,32 @@
+export const defaultSettingsChord = {
+  padAngle: 0.02,
+  innerRadiusRatio: 0.9,
+  innerRadiusOffset: 0.02,
+  colors: "nivo",
+  arcOpacity: 1,
+  arcBorderWidth: 1,
+  arcBorderColor: "inherit:darker(0.4)",
+  ribbonOpacity: 0.5,
+  ribbonBorderWidth: 1,
+  ribbonBorderColor: "inherit:darker(0.4)",
+  margin: {
+    top: 60,
+    right: 60,
+    bottom: 90,
+    left: 60
+  },
+  enableLabel: true,
+  label: "id",
+  labelOffset: 12,
+  labelRotation: -90,
+  labelTextColor: "inherit:darker(1)",
+  isInteractive: true,
+  arcHoverOpacity: 1,
+  arcHoverOthersOpacity: 0.25,
+  ribbonHoverOpacity: 0.75,
+  ribbonHoverOthersOpacity: 0.25,
+  animate: true,
+  motionStiffness: 90,
+  motionDamping: 7,
+  keys: ["John", "Raoul", "Jane", "Marcel", "Ibrahim"]
+};

@@ -1,0 +1,32 @@
+export const defaultSettingsRadar = {
+  maxValue: "auto",
+  curve: "catmullRomClosed",
+  borderWidth: 2,
+  borderColor: "inherit",
+  margin: {
+    top: 70,
+    right: 80,
+    bottom: 40,
+    left: 80
+  },
+  gridLevels: 5,
+  gridShape: "circular",
+  gridLabelOffset: 36,
+  enableDots: true,
+  dotSize: 8,
+  dotColor: "inherit",
+  dotBorderWidth: 0,
+  dotBorderColor: "#ffffff",
+  enableDotLabel: true,
+  dotLabel: "value",
+  dotLabelYOffset: -12,
+  colors: "nivo",
+  colorBy: "key",
+  fillOpacity: 0.1,
+  animate: true,
+  motionStiffness: 90,
+  motionDamping: 15,
+  isInteractive: true,
+  keys: ["chardonay", "carmenere", "syrah"],
+  indexBy: "taste"
+};

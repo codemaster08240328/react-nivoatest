@@ -1,0 +1,11 @@
+Ok I've got a changed spec for you (as the original task has been resolved)
+
+Navigate to the third tab of the Chord chart of my project. It has 4 controls for margin values. The API doc for it is at https://nivo.rocks/chord (the Margin tab)
+
+The chart itself (/chart/chord.jsx) has its sidebar component at /sidebarinstances/sidebarChord.jsx and some default settings at /value/defaultSettingsChord.jsx. The control for each margin selection can be found at 
+/viewinstance/sliderMarginBottom.jsx
+/viewinstance/sliderMarginLeft.jsx
+/viewinstance/sliderMarginRight.jsx
+/viewinstance/sliderMarginTop.jsx
+
+So to summarise, your solution should integrate each control in the Chord chart sidebar, so that toggling the slider will increase/decrease margin amount for the relevant position
