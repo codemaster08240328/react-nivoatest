@@ -15,7 +15,7 @@ import "@material/line-ripple/dist/mdc.line-ripple.css";
 
 import "@material/switch/dist/mdc.switch.css";
 import "@material/form-field/dist/mdc.form-field.css";
-import SwitchMaxValue from "../viewinstance/switchMaxValue";
+// import SwitchMaxValue from "../viewinstance/switchMaxValue";
 import SelectCurve from "../viewinstance/selectCurve";
 import SelectColors from "../viewinstance/selectColors";
 import SelectColorBy from "../viewinstance/selectColorBy";
@@ -37,7 +37,7 @@ import SelectDotBorderColor from "../viewinstance/selectDotBorderColor";
 import SwitchEnableDotLabel from "../viewinstance/switchEnableDotLabel";
 import SelectDotLabelType from "../viewinstance/selectDotLabelType";
 import SliderDotLabelYOffset from "../viewinstance/sliderDotLabelYOffset";
-import SwitchIsInteractive from "../viewinstance/switchIsInteractive";
+// import SwitchIsInteractive from "../viewinstance/switchIsInteractive";
 import SwitchAnimate from "../viewinstance/switchAnimate";
 import SliderMotionStiffness from "../viewinstance/sliderMotionStiffness";
 import SliderMotionDamping from "../viewinstance/sliderMotionDamping";
@@ -72,12 +72,12 @@ export default class SidebarRadar extends React.Component {
           {activeTab === 0 && (
             <div>
               <label>Max Value</label>
-              <SwitchMaxValue
+              {/* <SwitchMaxValue
                 maxValue={settings.maxValue}
                 onChange={value =>
                   this.props.updateSetting({ maxValue: value })
                 }
-              />
+              /> */}
               <label>Curve</label>
               <SelectCurve
                 curve={settings.curve}
@@ -238,12 +238,12 @@ export default class SidebarRadar extends React.Component {
           {activeTab === 4 && (
             <div>
               <label>Is Interactive</label>
-              <SwitchIsInteractive
+              {/* <SwitchIsInteractive
                 isInteractive={settings.isInteractive}
                 onChange={value =>
                   this.props.updateSetting({ isInteractive: value })
                 }
-              />
+              /> */}
             </div>
           )}
 

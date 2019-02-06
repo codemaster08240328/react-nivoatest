@@ -29,12 +29,12 @@ import SliderMarginTop from "../viewinstance/sliderMarginTop";
 import SliderMarginBottom from "../viewinstance/sliderMarginBottom";
 import SliderMarginLeft from "../viewinstance/sliderMarginLeft";
 import SliderMarginRight from "../viewinstance/sliderMarginRight";
-import SwitchEnableLabel from "../viewinstance/switchEnableLabel";
+// import SwitchEnableLabel from "../viewinstance/switchEnableLabel";
 import SelectLabels from "../viewinstance/selectLabel";
 import SliderLabelOffset from "../viewinstance/sliderLabelOffset";
 import SliderLabelRotation from "../viewinstance/sliderLabelRotation";
 import SelectLabelTextColor from "../viewinstance/selectLabelTextColor";
-import SwitchIsInteractive from "../viewinstance/switchIsInteractive";
+// import SwitchIsInteractive from "../viewinstance/switchIsInteractive";
 import SliderArcHoverOpacity from "../viewinstance/sliderArcHoverOpacity";
 import SliderArcHoverOthersOpacity from "../viewinstance/sliderArcHoverOthersOpacity";
 import SliderRibbonHoverOpacity from "../viewinstance/sliderRibbonHoverOpacity";
@@ -192,12 +192,12 @@ export default class SidebarChord extends React.Component {
           {activeTab === 3 && (
             <div>
               <label>Enable Labels</label>
-              <SwitchEnableLabel
+              {/* <SwitchEnableLabel
                 enableLabel={settings.enableLabel}
                 onChange={value =>
                   this.props.updateSetting({ enableLabel: value })
                 }
-              />
+              /> */}
               <label>Label</label>
               <SelectLabels
                 selectLabels={settings.selectLabels}
@@ -232,12 +232,12 @@ export default class SidebarChord extends React.Component {
           {activeTab === 4 && (
             <div>
               <label>Is Interactive</label>
-              <SwitchIsInteractive
+              {/* <SwitchIsInteractive
                 isInteractive={settings.isInteractive}
                 onChange={value =>
                   this.props.updateSetting({ isInteractive: value })
                 }
-              />
+              /> */}
               <label>Arc Hover Opacity</label>
               <SliderArcHoverOpacity
                 arcHoverOpacity={settings.arcHoverOpacity}

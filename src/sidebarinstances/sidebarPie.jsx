@@ -15,7 +15,7 @@ import "@material/line-ripple/dist/mdc.line-ripple.css";
 
 import "@material/switch/dist/mdc.switch.css";
 import "@material/form-field/dist/mdc.form-field.css";
-import SwitchEnableRadialLabels from "../viewinstance/switchEnableRadialLabels";
+// import SwitchEnableRadialLabels from "../viewinstance/switchEnableRadialLabels";
 import SliderStartAngle from "../viewinstance/sliderStartAngle";
 import SliderEndAngle from "../viewinstance/sliderEndAngle";
 import SliderInnerRadius from "../viewinstance/sliderInnerRadius";
@@ -35,10 +35,10 @@ import SliderRadialLabelsLinkDiagonalLength from "../viewinstance/sliderRadialLa
 import SliderRadialLabelsLinkHorizontalLength from "../viewinstance/sliderRadialLabelsLinkHorizontalLength";
 import SliderRadialLabelsTextOffset from "../viewinstance/sliderRadialLabelsTextOffset";
 import SliderRadialLabelsLinkStrokeWidth from "../viewinstance/sliderRadialLabelsLinkStrokeWidth";
-import SwitchEnableSlicesLabels from "../viewinstance/switchEnableSlicesLabels";
+// import SwitchEnableSlicesLabels from "../viewinstance/switchEnableSlicesLabels";
 import SelectSliceLabel from "../viewinstance/selectSliceLabel";
 import SliderSlicesLabelsSkipAngle from "../viewinstance/sliderSlicesLabelsSkipAngle";
-import SwitchIsInteractive from "../viewinstance/switchIsInteractive";
+// import SwitchIsInteractive from "../viewinstance/switchIsInteractive";
 
 export default class SidebarPie extends React.Component {
   constructor(props) {
@@ -165,12 +165,12 @@ export default class SidebarPie extends React.Component {
           {activeTab === 3 && (
             <div>
               <label>Enable Radial Labels</label>
-              <SwitchEnableRadialLabels
+              {/* <SwitchEnableRadialLabels
                 enableRadialLabels={settings.enableRadialLabels}
                 onChange={value =>
                   this.props.updateSetting({ enableRadialLabels: value })
                 }
-              />
+              /> */}
               <label>Radial Label</label>
               <SelectRadialLabel
                 selectRadialLabels={settings.selectRadialLabels}
@@ -238,12 +238,12 @@ export default class SidebarPie extends React.Component {
           {activeTab === 4 && (
             <div>
               <label>Enable Slices Labels</label>
-              <SwitchEnableSlicesLabels
+              {/* <SwitchEnableSlicesLabels
                 enableSlicesLabels={settings.enableSlicesLabels}
                 onChange={value =>
                   this.props.updateSetting({ enableSlicesLabels: value })
                 }
-              />
+              /> */}
               <label>Slice Label</label>
               <SelectSliceLabel
                 selectSliceLabel={settings.selectSliceLabel}
@@ -263,12 +263,12 @@ export default class SidebarPie extends React.Component {
           {activeTab === 5 && (
             <div>
               <label>Is Interactive</label>
-              <SwitchIsInteractive
+              {/* <SwitchIsInteractive
                 isInteractive={settings.isInteractive}
                 onChange={value =>
                   this.props.updateSetting({ isInteractive: value })
                 }
-              />
+              /> */}
             </div>
           )}
         </div>
